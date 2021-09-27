@@ -12,7 +12,7 @@
 
 A smart mirror with the ability to detect emotions that dynamically changes the user interface according to the user's emotion (playing music that is appropriate for the emotion, displaying images that are appropriate for the emotion, etc) and analyzing them during the use of a mirror to report emotions and identify mental illness criteria
 
-# Preview
+## Preview
 ()()()( Put image of the final project )()()()
 
 ## Backend
