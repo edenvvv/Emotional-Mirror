@@ -16,7 +16,7 @@ A smart mirror with the ability to detect emotions that dynamically changes the 
 ()()()( Put image of the final project )()()()
 
 ## Backend
-<img src="https://github.com/edenvvv/Final-project__temp__/blob/main/Emotional_detection_%20demo.gif" width="550" height="400" />
+<img src="https://github.com/edenvvv/Final-project/blob/main/Emotional_detection_%20demo.gif" width="550" height="400" />
 
 ## Technologies
 
