@@ -86,7 +86,7 @@ learning_rate_reduction = ReduceLROnPlateau(monitor='val_acc',
 callbacks = [earlystop, checkpoint, learning_rate_reduction]
 
 model.compile(loss='categorical_crossentropy',
-              optimizer=Adam(lr=0.001),
+              optimizer=Adam(learning_rate=0.001),
               metrics=['accuracy']
               )
 
