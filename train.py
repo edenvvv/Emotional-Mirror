@@ -61,21 +61,6 @@ train_datagen = ImageDataGenerator(
 
 validation_datagen = ImageDataGenerator(rescale=1./255)
 
-batch_size = 32
-
-train_generator = train_datagen.flow_from_directory(
-                        train_data_dir,
-                        target_size=(img_rows,img_cols),
-                        batch_size=batch_size,
-                        class_mode='categorical'
-                        )
-
-validation_generator = validation_datagen.flow_from_directory(
-                            validation_data_dir,
-                            target_size=(img_rows,img_cols),
-                            batch_size=batch_size,
-                            class_mode='categorical')
-
 from keras.optimizers import RMSprop, Adam
 from keras.callbacks import ModelCheckpoint, EarlyStopping, ReduceLROnPlateau
 
