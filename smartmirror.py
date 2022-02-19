@@ -106,10 +106,9 @@ class EmoImages(Frame):
         url = "https://static8.depositphotos.com/1008008/846/i/450/depositphotos" \
               "_8464756-stock-photo-luxury-chill-out-summer-bar.jpg"
         self.make_happy_url_list = ["https://vitapet.com/media/wutguhcs/questions-before-puppy-600x400.jpg",
-                                    "http://cdn.shopify.com/s/files/1/0248/9516/0386/files/Hund_Fotolia_187023895_L_grande.jpg?v=1587047855",
-                                    "https://richmondhillveterinarian.ca/wp-content/uploads/2019/11/fear-free-card.jpg"]
-        self.chill_url_list = ["https://static8.depositphotos.com/1008008/846/i/450/depositphotos_8464756-stock-photo-luxury-chill-out-summer-bar.jpg",
-                               "https://static.readytotrip.com/upload/information_system_24/1/5/2/item_1529126/information_items_1529126.jpg",
+                                    "http://cdn.shopify.com/s/files/1/0248/9516/0386/files/Hund_Fotolia_187023895_L_grande.jpg?v=1587047855"]
+        self.chill_url_list = ["https://static.readytotrip.com/upload/information_system_24/1/5/2/item_1529126/information_items_1529126.jpg",
+                               "https://pakalhagor.co.il/wp-content/uploads/2018/07/trees-countryside-green-chill-600x400.jpg",
                                "https://cdn2.patriotgetaways.com/uploads/albums/7ff1ec22-68e6-11e8-9cf6-f23c91339e2c/grill-&-chill-private-deck-600x400.jpg"]
         self.calm_down_url_list = ["http://cdn.shopify.com/s/files/1/1417/3230/products/A0022321-Foster-Falls_grande.jpg?v=1575931829",
                                    "https://hiideemedia.com/wp-content/uploads/2021/03/Erawan-Waterfall-Thailand-600x400.jpg",
@@ -135,8 +134,7 @@ class EmoImages(Frame):
             rand_img = random.randint(0, len(self.calm_down_url_list) - 1)
             url = self.calm_down_url_list[rand_img]
         else:
-            url = "https://static8.depositphotos.com/1008008/846/i/450/depositphotos" \
-                  "_8464756-stock-photo-luxury-chill-out-summer-bar.jpg"
+            url = "https://pakalhagor.co.il/wp-content/uploads/2018/07/trees-countryside-green-chill-600x400.jpg"
 
         self.img_label.set_html(f"<img src='{url}'>")
         self.img_label.after(5000, self.img_of_emo)  # calls itself every 5000 milliseconds (5 seconds)
@@ -304,7 +302,7 @@ def emo_music():
     while not eve.wait(music_timer):
         # os.system("killall -9 'Google Chrome'")
         youtube_urls = {"Make_happy": "https://www.youtube.com/watch?v=hT_nvWreIhg&list=PLhGO2bt0EkwvRUioaJMLxrMNhU44lRWg8",
-                        "chill": "https://www.youtube.com/watch?v=wBUa1tHz7hg",
+                        "chill": "https://www.youtube.com/watch?v=25BkVBgFD9Y",
                         "relax": "https://www.youtube.com/watch?v=DGQwd1_dpuc"}
         date_time = datetime.now()
         date = date_time.date()
