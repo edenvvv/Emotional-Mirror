@@ -108,7 +108,6 @@ class EmoImages(Frame):
         self.make_happy_url_list = ["https://vitapet.com/media/wutguhcs/questions-before-puppy-600x400.jpg",
                                     "http://cdn.shopify.com/s/files/1/0248/9516/0386/files/Hund_Fotolia_187023895_L_grande.jpg?v=1587047855"]
         self.chill_url_list = ["https://static.readytotrip.com/upload/information_system_24/1/5/2/item_1529126/information_items_1529126.jpg",
-                               "https://pakalhagor.co.il/wp-content/uploads/2018/07/trees-countryside-green-chill-600x400.jpg",
                                "https://cdn2.patriotgetaways.com/uploads/albums/7ff1ec22-68e6-11e8-9cf6-f23c91339e2c/grill-&-chill-private-deck-600x400.jpg"]
         self.calm_down_url_list = ["http://cdn.shopify.com/s/files/1/1417/3230/products/A0022321-Foster-Falls_grande.jpg?v=1575931829",
                                    "https://hiideemedia.com/wp-content/uploads/2021/03/Erawan-Waterfall-Thailand-600x400.jpg",
@@ -134,7 +133,7 @@ class EmoImages(Frame):
             rand_img = random.randint(0, len(self.calm_down_url_list) - 1)
             url = self.calm_down_url_list[rand_img]
         else:
-            url = "https://pakalhagor.co.il/wp-content/uploads/2018/07/trees-countryside-green-chill-600x400.jpg"
+            url = "https://static.readytotrip.com/upload/information_system_24/1/5/2/item_1529126/information_items_1529126.jpg"
 
         self.img_label.set_html(f"<img src='{url}'>")
         self.img_label.after(5000, self.img_of_emo)  # calls itself every 5000 milliseconds (5 seconds)
