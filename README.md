@@ -13,7 +13,7 @@
 A smart mirror with the ability to detect emotions that dynamically changes the user interface according to the user's emotion (playing music that is appropriate for the emotion, displaying images that are appropriate for the emotion, etc) and analyzing them during the use of a mirror to report emotions and identify mental illness criteria
 
 ## Preview
-()()()( Put image of the final project )()()()
+<img src="https://github.com/edenvvv/Emotional-Mirror/blob/main/Final%20Img.jpeg" width="375" height="550" />
 
 ## Backend
 <img src="https://github.com/edenvvv/Final-project/blob/main/Emotional_detection_%20demo.gif" width="550" height="400" />
